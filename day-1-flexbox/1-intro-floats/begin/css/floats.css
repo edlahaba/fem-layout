@@ -5,27 +5,30 @@ html {
 }
 /* inherit border-box on all elements in the universe and before and after
  */
-*, 
-*:before, 
+*,
+*:before,
 *:after {
   box-sizing: inherit;
 }
 
 body {
-	font-family: Arial, Geneva, sans-serif;
+  font-family: Arial, Geneva, sans-serif;
 }
 a {
-	color: #2772B0;
+  color: #2772b0;
 }
 .wrapper {
-	width: 97%;
-	max-width: 1200px;
-	margin: 0 auto;
-	float: none;
-	background-color: #fff;
+  width: 97%;
+  max-width: 1200px;
+  margin: 0 auto;
+  float: none;
+  background-color: #fff;
 }
 
-.row { float: left; clear: right;}
+.row {
+  float: left;
+  clear: right;
+}
 
 .row article {
   float: left;
@@ -36,13 +39,13 @@ article {
 }
 
 div img {
-	width: 100%;
-	max-width: 325px; 
+  width: 100%;
+  max-width: 325px;
 }
 
 .row {
-  margin-right:8%;
-  margin-bottom:2%;
+  margin-right: 8%;
+  margin-bottom: 2%;
 }
 
 /* grid system -- mobile first! */
@@ -51,7 +54,7 @@ div img {
 }
 
 /* Mobile Landscape Screen Sizes */
-@media only screen and (min-width: 360px)  {
+@media only screen and (min-width: 360px) {
   .row:nth-child(1) > article {
     width: 48%;
   }
@@ -67,7 +70,6 @@ div img {
 
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
-
   .row:nth-child(1) > article {
     width: 23%;
   }
